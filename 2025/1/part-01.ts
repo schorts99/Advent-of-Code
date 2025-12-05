@@ -30,7 +30,7 @@ function executeMovements(currentPosition: number, direction: DirectionType, mov
 }
 
 async function main() {
-  const fileHandler = await open('./input.txt');
+  const fileHandler = await open('./input-part-01.txt');
   let position = START_POSITION;
   let matches = 0;
 
