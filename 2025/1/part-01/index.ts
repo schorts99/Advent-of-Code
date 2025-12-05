@@ -17,7 +17,8 @@ function parseLine(line: string) {
 }
 
 function executeMovements(currentPosition: number, direction: DirectionType, movements: number) {
-  let position;
+  let position: number;
+
   if (direction === DIRECTION.R) {
     position = currentPosition + movements;
   } else {
@@ -30,7 +31,7 @@ function executeMovements(currentPosition: number, direction: DirectionType, mov
 }
 
 async function main() {
-  const fileHandler = await open('./input-part-01.txt');
+  const fileHandler = await open('./input.txt');
   let position = START_POSITION;
   let matches = 0;
 
