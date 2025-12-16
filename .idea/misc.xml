@@ -6,4 +6,5 @@
   <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/2025/02/part-01">
     <contentRoot DIR="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_25" project-jdk-name="25" project-jdk-type="JavaSDK" />
 </project>
